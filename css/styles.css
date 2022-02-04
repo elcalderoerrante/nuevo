@@ -1,0 +1,92 @@
+/******************************/
+/*       General Styling      */
+/******************************/
+body{
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+  background: url(../img/bg.jpg) no-repeat fixed;
+  background-size: auto;
+  background-size: cover;
+}
+
+/******************************/
+/*       Navigation Bar       */
+/******************************/
+.navbar{
+  background-color:black;
+  font-size: 110%;
+}
+.nav-link{
+  color:lightgrey;
+}
+.nav-link.active{
+  color:#C8874D;
+}
+.nav-link.active:hover{
+  color:#D3AB7D;
+}
+.nav-link:hover{
+  color:#D3AB7D;
+}
+.nav-link:focus{
+  color:#D3AB7D;
+}
+.navbar ul li:hover .dropdown-toggle{
+  color:#D3AB7D;
+}
+li .dropdown-item:hover{
+  background-color: transparent;
+  color:#C8874D;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+  background-color: #e9d5be;
+}
+.dropdown-toggle::after{
+  content: none;
+}
+.btn-tog {
+	 position: relative;
+	 padding: 1.5rem;
+}
+ .menu-toggle {
+	 position: absolute;
+	 right: 1.5rem;
+	 top: 49%;
+	 transform: translate(0, -50%);
+	 height: 26px;
+	 width: 29px;
+}
+ .menu-toggle, .menu-toggle:hover {
+	 color: #000;
+}
+ .menu-toggle-bar {
+	 display: block;
+	 position: absolute;
+	 top: 50%;
+	 margin-top: -1px;
+	 right: 0;
+	 width: 100%;
+	 height: 4px;
+	 border-radius: 4px;
+	 background-color: #D3AB7D;
+	 transition: all 0.3s ease;
+}
+ .menu-toggle-bar.menu-toggle-bar--top {
+	 transform: translate(0, -8px);
+}
+ .menu-toggle-bar.menu-toggle-bar--bottom {
+	 transform: translate(0, 8px);
+}
+ .nav-open .menu-toggle-bar.menu-toggle-bar--top {
+	 transform: translate(0, 0) rotate(45deg);
+}
+ .nav-open .menu-toggle-bar.menu-toggle-bar--middle {
+	 opacity: 0;
+}
+ .nav-open .menu-toggle-bar.menu-toggle-bar--bottom {
+	 transform: translate(0, 0) rotate(-45deg);
+}
