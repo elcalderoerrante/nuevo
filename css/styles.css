@@ -46,8 +46,11 @@ li .dropdown-item:hover{
   content: none;
 } */
 .nav-item a{
-  color:white;
+  color: black;
   text-decoration: none;
+}
+.nav-item a:hover{
+  color: black;
 }
 .nav-item a.active{
   color:#C8874D;
