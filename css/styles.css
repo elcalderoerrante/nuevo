@@ -69,7 +69,7 @@ li .dropdown-item:hover{
 .dropdown:hover{
   background: transparent;
   color:#D3AB7D;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .dropdown:hover .dropdown_menu li {
   display: block;
@@ -94,6 +94,9 @@ li .dropdown-item:hover{
 }
 .recetas{
   z-index: 100;
+}
+.recetas div{
+  display: inline-block;
 }
 .dropdown_menu li:hover {
   background-color: #C8874D;
