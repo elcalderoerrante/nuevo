@@ -216,11 +216,27 @@ body{
 input.gsc-input {
     background-color: black !important;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 .gsst_a .gscb_a{
   color: white !important;
 }
+.gsc-result-info {
+        display: none !important;
+}
+.gs-title{
+  font-weight:bolder !important;
+  font-size: 1.2em !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+.gs-snippet {
+        font-size: 1.2em !important;
+        font-family: 'Raleway', sans-serif;
+}
 
+.gsc-url-top, .gsc-url-bottom {
+       display: none !important;
+}
 /* .gsc-search-button-v2{
   background-color: blue !important;
 } */
