@@ -205,8 +205,25 @@ body{
 /*****************************/
 /****     Search Bar      ****/
 /*****************************/
+.gsc-input{
+  font-size: 1em !important;
+}
+.gsc-input-box{
+  /* background-color: #D3AB7D !important; */
+  background-color: black !important;
+  border-radius: 8px;
+}
+input.gsc-input {
+    background-color: black !important;
+    color: white;
+}
+.gsst_a .gscb_a{
+  color: white !important;
+}
 
-
+/* .gsc-search-button-v2{
+  background-color: blue !important;
+} */
 /***************** For small devices *****************/
 @media (max-width: 991px) {
   .dropdown_menu li {
