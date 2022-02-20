@@ -1,3 +1,4 @@
 CREDITS:
 
 1. Burguer Menu "burger-to-cross menu button" by https://codepen.io/james2doyle
+2. Dropdown Animations with CSS Transforms by https://codepen.io/codypearce
