@@ -336,16 +336,32 @@ input.gsc-input {
 .carousel-home a{
   text-decoration: none;
   font-family: 'Caveat', cursive;
-  color: #d8ab82;
+  color: #FBF6F2;
   font-size: 1.5em;
   transition:0.5s;
 }
 .carousel-home a:hover{
-  color: #FBF6F2;
+  color: #d8ab82;
   font-size: 1.6em;
   transition:0.5s;
 }
-
+/******* CATEGORIES  *********/
+.category-title h2 > a{
+  font-family: 'Homemade Apple', cursive;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #FBF6F2;
+  padding-top: 1em;
+  transition: 0.5s;
+}
+.category-title h2 > a:hover{
+  font-size: 1.55em;
+  color: #d8ab82;
+  transition: 0.5s;
+}
+ section .category-title{
+   border-bottom: solid #C8874D;
+ }
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
   .dropdown_menu li {
