@@ -15,6 +15,9 @@ body{
   font-family: 'Homemade Apple', cursive;
   font-size: 4em;
 }
+h4{
+  padding: 0.7em;
+}
 /******************************/
 /*       Navigation Bar       */
 /******************************/
@@ -294,7 +297,7 @@ input.gsc-input {
 	}
 	.item {
 			text-align: center;
-			// padding: 20px;
+			padding: 20px;
 			margin-bottom:80px;
 	}
 }
@@ -315,7 +318,7 @@ input.gsc-input {
 	line-height: 50px;
 	border-radius: 50%;
   position: absolute;
-  top: 30%;
+  top: 25%;
 	font-size: 20px;
   /* color: blue; */
 	/* border: 1px solid #ddd; */
@@ -330,9 +333,18 @@ input.gsc-input {
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
   background-color: black;
 }
-
-
-
+.carousel-home a{
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  color: #d8ab82;
+  font-size: 1.5em;
+  transition:0.5s;
+}
+.carousel-home a:hover{
+  color: #FBF6F2;
+  font-size: 1.6em;
+  transition:0.5s;
+}
 
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
