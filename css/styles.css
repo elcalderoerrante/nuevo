@@ -362,6 +362,31 @@ input.gsc-input {
  section .category-title{
    border-bottom: solid #C8874D;
  }
+
+ .category{
+   padding-top: 2em;
+ }
+ .right-bottom-panel{
+   padding-top:0.7em;
+ }
+ .category a{
+   text-decoration: none;
+   font-family: 'Caveat', cursive;
+   color: #FBF6F2;
+   font-size: 1.5em;
+   transition:0.5s;
+ }
+ .category a:hover{
+   color: #d8ab82;
+   font-size: 1.6em;
+   transition:0.5s;
+ }
+ .category .card-title{
+   padding-left: 0;
+ }
+ .category i{
+   font-family: 'Homemade Apple', cursive;
+ }
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
   .dropdown_menu li {
