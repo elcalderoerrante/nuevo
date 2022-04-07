@@ -19,6 +19,51 @@ h4{
   padding: 0.7em;
 }
 /******************************/
+/*     Scroll to top button   */
+/******************************/
+#button {
+  display: inline-block;
+  background-color: #D3AB7D;;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #C8874D;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}
+/******************************/
 /*       Navigation Bar       */
 /******************************/
 .navbar{
@@ -391,32 +436,21 @@ input.gsc-input {
  .category i{
    font-family: 'Homemade Apple', cursive;
  }
-/* .category img{
-   transition: 2s;
- }
-.category img:hover{
-  transform: scale(1.01);
-  transition: 2s;
-} */
-
-/* [1] The container */
+/* HOVER ZOOM [1] The container */
 .img-hover-zoom {
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
-
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
   transform-origin: 50% 50%;
   transition: transform 5s, filter 3s ease-in-out;
   filter: brightness(80%);
 }
-
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover img {
   filter: brightness(100%);
   transform: scale(1.2);
 }
-
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
   .dropdown_menu li {
@@ -432,5 +466,8 @@ input.gsc-input {
   }
   .title h3{
     font-size:1.4em;
+  }
+  .card-text{
+    padding-bottom: 2em;
   }
 }

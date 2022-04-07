@@ -8,7 +8,6 @@ window.onload = function(){
     document.getElementById('gsc-i-id1').placeholder = 'Buscar recetas';
   };
 //--       Owl Carousel     --//
-
   jQuery(document).ready(function($) {
   "use strict";
   $('#recipe-carousel').owlCarousel( {
@@ -35,3 +34,16 @@ window.onload = function(){
   		}
   	});
   });
+//-- Scroll to top button --//
+var btn = $('#button');
+$(window).scroll(function() {
+if ($(window).scrollTop() > 300) {
+  btn.addClass('show');
+} else {
+  btn.removeClass('show');
+}
+});
+btn.on('click', function(e) {
+e.preventDefault();
+$('html, body').animate({scrollTop:0}, '300');
+});
