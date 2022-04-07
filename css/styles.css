@@ -346,6 +346,10 @@ input.gsc-input {
   transition:0.5s;
 }
 /******* CATEGORIES  *********/
+.main-page-category{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 .category-title h2 > a{
   font-family: 'Homemade Apple', cursive;
   text-decoration: none;
@@ -362,9 +366,9 @@ input.gsc-input {
  section .category-title{
    border-bottom: solid #C8874D;
  }
-
  .category{
-   padding-top: 2em;
+   padding-top: 3em;
+   padding-bottom: 3em;
  }
  .right-bottom-panel{
    padding-top:0.7em;
@@ -387,6 +391,32 @@ input.gsc-input {
  .category i{
    font-family: 'Homemade Apple', cursive;
  }
+/* .category img{
+   transition: 2s;
+ }
+.category img:hover{
+  transform: scale(1.01);
+  transition: 2s;
+} */
+
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transform-origin: 50% 50%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(80%);
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  filter: brightness(100%);
+  transform: scale(1.2);
+}
+
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
   .dropdown_menu li {
