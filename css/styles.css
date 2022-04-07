@@ -390,7 +390,9 @@ input.gsc-input {
   font-size: 1.6em;
   transition:0.5s;
 }
-/******* CATEGORIES  *********/
+/*******************************/
+/****      Categories       ****/
+/*******************************/
 .main-page-category{
   padding-top: 3em;
   padding-bottom: 3em;
@@ -450,6 +452,51 @@ input.gsc-input {
 .img-hover-zoom:hover img {
   filter: brightness(100%);
   transform: scale(1.2);
+}
+/*****************************/
+/****      Footer         ****/
+/*****************************/
+footer{
+  background-color: black;
+  padding-bottom: 2em;
+  padding-top:2em;
+}
+.info-developer{
+    color:white;
+}
+.info-developer a{
+  color: #D3AB7D;
+  text-decoration: none;
+}
+.info-developer a:hover{
+  color:#C8874D;
+}
+p.info-developer{
+  margin-bottom:-2em;
+  padding-top:2em;
+}
+footer i{
+  color: #D3AB7D;
+  font-size: 2em;
+  transition: 0.5s;
+}
+footer i:hover{
+  color: #C8874D;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+footer h2 > a{
+  font-family: 'Homemade Apple', cursive;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #FBF6F2;
+  padding-top: 1em;
+  transition: 0.5s;
+}
+footer h2 > a:hover{
+  font-size: 1.55em;
+  color: #d8ab82;
+  transition: 0.5s;
 }
 /***************** For medium devices *****************/
 @media (max-width: 991px) {
