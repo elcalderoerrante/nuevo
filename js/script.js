@@ -1,4 +1,16 @@
-//--        Toggler          --//
+/*------------------
+  Preloder
+--------------------*/
+'use strict';
+
+$(window).on('load', function() {
+	$(".loader").fadeOut();
+	$("#preloder").delay(400).fadeOut("slow");
+});
+
+/*-----------------
+    Toggler
+-----------------*/
 document.getElementById('menu-toggle')
 .addEventListener('click', function(){
   document.body.classList.toggle('nav-open');
@@ -7,7 +19,9 @@ document.getElementById('menu-toggle')
 window.onload = function(){
     document.getElementById('gsc-i-id1').placeholder = 'Buscar recetas';
   };
-//--       Owl Carousel     --//
+/*-----------------
+    Owl Carousel
+-----------------*/
   jQuery(document).ready(function($) {
   "use strict";
   $('#recipe-carousel').owlCarousel( {
@@ -34,7 +48,10 @@ window.onload = function(){
   		}
   	});
   });
-//-- Scroll to top button --//
+/*------------------
+    Scroll to top button
+--------------------*/
+
 var btn = $('#button');
 $(window).scroll(function() {
 if ($(window).scrollTop() > 300) {
@@ -47,3 +64,7 @@ btn.on('click', function(e) {
 e.preventDefault();
 $('html, body').animate({scrollTop:0}, '300');
 });
+/*------------------
+  Gets current year in footer:
+--------------------*/
+document.getElementById("year").innerHTML = new Date().getFullYear();
