@@ -5,4 +5,4 @@ CREDITS:
 3. Background (bg) by https://pixabay.com/users/darkmoon_art-1664300/
 4. Zoom on Hover Images by https://w3bits.com/css-image-hover-zoom/
 5. Scroll to top button by https://codepen.io/matthewcain
-6. Preloder by https://codepen.io/pawelqcm
+6. Preloder by https://codepen.io/evadecker
