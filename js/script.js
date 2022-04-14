@@ -54,7 +54,7 @@ $(window).on('load', function() {
    ["🌿","Cultivando albahaca"],
    ["🍰","Rebanando pastel"],
    ["🍟","Friendo papas"],
-   ["🍑","Cortando duraznos"],
+   ["🍑","Lavando duraznos"],
    ["🍛","Preparando curry"],
    ["🌮","Armando tacos"],
    ["📸","Fotografiando platillos"],
