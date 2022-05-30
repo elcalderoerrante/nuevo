@@ -705,4 +705,8 @@ footer h2 > a:hover{
   .card-text{
     padding-bottom: 2em;
   }
+  .item-category{
+    padding-bottom: 4em;
+    padding-right: 1em;
+  }
 }
