@@ -629,6 +629,18 @@ input.gsc-input {
   filter: brightness(100%);
   transform: scale(1.2);
 }
+
+/*************************************/
+/****      Category pages         ****/
+/*************************************/
+.category-title h1{
+  border-bottom: solid #C8874D;
+  color: #FBF6F2;
+}
+.item-category{
+  padding-bottom: 4em;
+  padding-right: 4em;
+}
 /*****************************/
 /****      Footer         ****/
 /*****************************/
@@ -670,7 +682,7 @@ footer h2 > a{
   transition: 0.5s;
 }
 footer h2 > a:hover{
-  font-size: 1.55em;
+  font-size: 1.51em;
   color: #d8ab82;
   transition: 0.5s;
 }
