@@ -633,7 +633,7 @@ input.gsc-input {
 
 .recipe-title h1{
   font-family: 'Caveat', cursive;
-  color: #FBF6F2;
+  color: #e9ceb8;
   font-size: 4em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -642,7 +642,10 @@ input.gsc-input {
   padding-left: 6em;
   padding-right: 6em;
   font-size: 1.3em;
-
+}
+.recipe-image{
+  padding-left: 10em;
+  padding-right: 10em;
 }
 /*****************************/
 /****      Footer         ****/
@@ -716,5 +719,16 @@ footer h2 > a:hover{
     padding-left: 2em;
     padding-right: 2em;
     font-size: 1.1em;
+  }
+  .recipe-image{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .recipe-image{
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
